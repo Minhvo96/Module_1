@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test JavaScript Form</title>
+</head>
+<body>
+    <h1>Test JavaScript Form Validataion</h1>
+    <form>
+        <table style="width: 600px;">
+            <tbody>
+                <tr>
+                    <td>Name<span style="color: red;">*</span></td>
+                    <td><input type="text" name="name" id="1" required></td>
+                </tr>
+                <tr>
+                    <td>Address</td>
+                    <td><input type="text" name="address" id="2"></td>
+                </tr>
+                    <td>Zip Code<span style="color: red;">*</span></td>
+                    <td><input type="number" name="zip code" id="3" required></td>
+                <tr>
+                    <td>Country<span style="color: red;">*</span></td>
+                    <td><select style="width: 150px;">
+                        <option value="vietnam">Vietnam</option>
+                        <option value="japan">Japan</option>
+                        <option value="korea">Korea</option>
+                        <option value="singapore">Singapore</option>
+                        <option value="china">China</option>
+                    </select></td>
+                </tr>
+                <tr>
+                    <td>Gender<span style="color: red;">*</span></td>
+                    <td><input type="radio" name="gender" id="1" checked>Male <input type="radio" name="gender" id="2">Female</td>
+                </tr>
+                <tr>
+                    <td>Preferences<span style="color: red;">*</span></td>
+                    <td><input type="checkbox" name="color" id="1">Red <input type="checkbox" name="color" id="2">Green <input type="checkbox" name="color" id="3">Blue</td>
+                </tr>
+                <tr>
+                    <td>Phone<span style="color: red;">*</span></td>
+                    <td><input type="password" name="password" id="1"></td>
+                </tr>
+                <tr>
+                    <td>Email<span style="color: red;">*</span></td>
+                    <td><input type="email"></td>
+                </tr>
+                <tr>
+                    <td>Password (6-8 characters)<span style="color: red;">*</span></td>
+                    <td><input type="password" name="password" id="1"></td>
+                </tr>
+                <tr>
+                    <td>Verify Password<span style="color: red;">*</span></td>
+                    <td><input type="password" name="password" id="2"></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><input type="submit" value="SEND">&nbsp;&nbsp;&nbsp;<input type="reset" value="CLEAR"></td>
+                </tr>
+            </tbody>
+        </table>
+    </form>
+</body>
+</html>
