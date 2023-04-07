@@ -1,0 +1,43 @@
+caption {
+    color: blue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+table {
+    border-collapse: collapse;
+    width: 700px; 
+}
+
+thead {
+    background-color: orange;
+}
+
+td, th {
+    text-align: center; 
+    width: 14%;
+    padding: 10px; 
+}
+
+tbody td {
+    border: 1px solid black;
+}
+
+sub {
+    color: black;
+}
+
+.whitecolor {
+    background-color: white;
+}
+
+th {
+    color: white;
+}
+
+td:first-child{
+    color: red;
+}
+
+td:last-child{
+    color: blue;
+}

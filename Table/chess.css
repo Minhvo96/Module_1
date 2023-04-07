@@ -1,10 +1,14 @@
-table,td,th {
+table {
     border-collapse: collapse;
     background-color: orange;
 }
 
 td {
     width: 100px; height: 100px;
+}
+
+th {
+    width: 20px; height: 20px;
 }
 
 tr:nth-child(even) td:nth-child(even) {
@@ -21,8 +25,4 @@ tr:nth-child(even) td:nth-child(odd) {
 
 tr:nth-child(odd) td:nth-child(even) {
     background-color: black;
-}
-
-th {
-    width: 20px; height: 20px;
 }
