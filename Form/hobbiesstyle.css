@@ -1,0 +1,21 @@
+.orange {
+    color: orange;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.caption {
+    background-color: red;
+    color: white;
+    text-align: center;
+}
+
+.blue {
+    color: blue;
+    text-align: right;
+}
+
+table {
+    border: 10px solid aqua;
+    width: 600px; height: 100px;
+}
