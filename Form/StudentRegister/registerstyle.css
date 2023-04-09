@@ -1,0 +1,15 @@
+table {
+    background-color: yellow;
+}
+
+.register {
+    background-color: yellowgreen;
+    color: blue;
+    text-align: left;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.color {
+    color: blue;
+}

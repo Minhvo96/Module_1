@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Register</title>
+    <link rel="stylesheet" href="/StudentRegister/registerstyle.css">
+</head>
+<body>
+    <form>
+        <table>
+            <tr>
+                <td class="register" colspan="2">Đăng ký học viên</td>
+            </tr>
+            <tr>
+                <td class="color">Họ và tên</td>
+                <td><input type="text" name="name" id="1"></td>
+            </tr>
+            <tr>
+                <td class="color">Ngày sinh</td>
+                <td><input type="date" name="date" id="2"></td>
+            </tr>
+            <tr>
+                <td class="color">Giới tính</td>
+                <td><input type="radio" name="gender" id="3">Nam
+                    <input type="radio" name="gender" id="3">Nữ</td>
+            </tr>
+            <tr>
+                <td class="color">Địa chỉ</td>
+                <td><textarea name="adress" id="4" cols="30" rows="7"></textarea></td>
+            </tr>
+            <tr>
+                <td class="color">Lớp</td>
+                <td><select name="class" id="5">
+                        <option>--Chọn lớp--</option>
+                        <option value="A">A</option>
+                        <option value="B">B</option>
+                        <option value="C">C</option>
+                    </select></td>
+            </tr>
+            <tr>
+                <td class="color">Email</td>
+                <td><input type="email" name="email" id="6"></td>
+            </tr>
+            <tr>
+                <td class="color">Điện thoại</td>
+                <td><input type="number" name="phone" id="7"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="submit" value="Đăng ký">
+                    <input type="reset" value="Nhập lại"></td>
+            </tr>           
+        </table>
+    </form>
+</body>
+</html>
