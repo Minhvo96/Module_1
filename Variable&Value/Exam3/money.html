@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Money</title>
+    <link rel="stylesheet" href="/Exam3/money.css">
+</head>
+
+<body>
+    <table>
+        <tr>
+            <td>Amount</td>
+            <td>From Currency</td>
+            <td>To Currency</td>
+        </tr>
+        <tr>
+            <td><input type="number" name="" id="amount"></td>
+            <td>
+                <select name="" id="from">
+                    <option value="VND">VND</option>
+                    <option value="USD">USD</option>
+                </select>
+            </td>
+            <td>
+                <select name="" id="to">
+                    <option value="VND">VND</option>
+                    <option value="USD">USD</option>
+                </select>
+            </td>
+            <td><input type="button" value="Convert" class="style" onclick="convert()"></td>
+        </tr>
+        <tr>
+            <td>
+                <p id="result">Your money:</p>
+            </td>
+        </tr>
+    </table>
+    <script src="/Exam3/money.js"></script>
+</body>
+
+</html>
