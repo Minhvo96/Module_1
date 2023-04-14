@@ -5,9 +5,9 @@ function convert() {
     let result;
 
     if (fromM == 'VND' && toM == 'USD') {
-        result = amount * 23000 + ' USD';
+        result = amount / 23000 + ' USD';
     } else if (fromM == 'USD' && toM == 'VND') {
-        result = amount / 23000 + ' VND';
+        result = amount * 23000 + ' VND';
     } else if (fromM == 'VND') {
         result = amount + 'VND';
     } else {
