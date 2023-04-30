@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    top: 0;
+}
+
+header {
+    background-color: black;
+}
+
+.container {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.container .logo {
+    background-color: none;
+    width: 280px;
+}
+
+.container .logo .logo1 {
+    background-color: black;
+    width: 190px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.container .search {
+    width: 50%;
+    display: flex;
+    margin-top: 25px;
+}
+
+.container .search .searchbox {
+    padding: 10px;
+    width: 400px;
+    height: 41px;
+    box-sizing: border-box;
+    border: none;
+}
+
+.container .search .searchbutton {
+    width: 70px;
+    height: 40px;
+    box-sizing: border-box;
+    margin-left: -5px;
+    border: none;
+}
+
+.container .title {
+    width: 20%;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+h4 {
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.container_1 {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.items {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.item {
+    width: 19%;
+    background-color: #fff;
+    padding: 12px;
+    text-align: center;
+}
+
+img {
+    width: 200px;
+}
+
+button {
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 5px;
+    width: 100px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: antiquewhite;
+}
+
+.container-search {
+    border: 2px solid whitesmoke;
+    height: 44px;
+    border-radius: 5px;
+}
+
+.item:hover {
+    border: 1px solid gray;
+    border-radius: 7px;
+    box-sizing: border-box;
+    transform: scale(1.05);
+    cursor: pointer;
+    border: none;
+    box-shadow: 4px 4px 2px 2px #888888;
+}
+
+.title {
+    font-size: 35px;
+    color: white;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+body {
+    background-image: url(/IMG/background.jpg);
+    background-size: cover;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/*------------------------------------------------------------cart------------------------------------------------------------*/
+
+.mini_img {
+    width: 70px;
+}
+
+.td1 {
+    display: flex;
+    align-items: center;
+}
+
+.input {
+    width: 30px;
+    outline: none;
+}
+
+.delete {
+    cursor: pointer;
+}
+
+.cart {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.cart {
+    margin-bottom: 50px;
+}
+
+.cart table {
+    width: 100%;
+}
+
+.cart table thead tr th:first-child {
+    text-align: left;
+}
+
+.cart table thead tr th:last-child {
+    text-align: right;
+}
+
+.cart table tbody tr td:last-child {
+    text-align: right;
+}
+
+.cart table tr td {
+    border-bottom: 1px solid #ddd;
+    padding: 12px;
+}
+
+.price_total {
+    text-align: right;
+}
+
+.total {
+    font-weight: bolder;
+}
