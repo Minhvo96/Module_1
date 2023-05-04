@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài 2</title>
+</head>
+
+<body>
+    <script>
+        // Câu 2: Xây dựng hàm trả về vị trí của phần tử cần tìm trong 1 mảng cho trước.
+        // Hàm có 2 tham số là số phần tử cần tìm, mảng cho trước.
+
+        function findIndex(array, value) {
+            for (i = 0; i < array.length; i++) {
+                if (array[i] == value) {
+                    return i;
+                }
+            }
+            return -1;
+        }
+
+        let array = [20, -80, 12, 77, 91, 25, 42, 63, 57];
+        let value = +prompt('Input value here');
+        let index = findIndex(array, value);
+
+        if (index == -1) {
+            alert('Không có phần tử này trong mảng');
+        } else {
+            alert(`Phần tử này đang nằm tại vị trí ${index} trong mảng`);
+        }
+    </script>
+</body>
+
+</html>
